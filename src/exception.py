@@ -1,4 +1,5 @@
 import sys
+from src.logger import logging
 
 def error_message_detail(error, error_detail: sys):
     
@@ -23,3 +24,11 @@ class CustomException(Exception):
 # This can be useful for debugging and logging purposes.
 # The error_message_detail function formats the error message with the file name, line number, and error message.
 # This can help developers quickly identify where the error occurred and what the error was.        
+
+
+if __name__ == '__main__':
+    try:
+        a= 1/0
+    except Exception as e:
+        logging.info("Divide by zero")
+        raise CustomException(e,sys)
