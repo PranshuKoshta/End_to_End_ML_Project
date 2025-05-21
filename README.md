@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is an end-to-end machine learning application designed to **predict student performance test scores** based on various influencing factors. It follows industry-standard best practices for building **modular, well-structured data science projects** from development to deployment.
+This project is an end-to-end machine learning application designed to **predict student performance test scores** based on various influencing factors. It follows industry-standard best practices for building **modular, well-structured data science projects**.
 
 The project covers essential stages of a machine learning lifecycle, including **data ingestion, data transformation, model training, evaluation, and deployment**. It also incorporates crucial aspects like **environment management, version control, exception handling, and logging** for robust and maintainable code.
 
